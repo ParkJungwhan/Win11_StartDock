@@ -1,2 +1,2 @@
 # Win11_StartDock
-mailto:pjh2104@gmail.com
+pjh2104@gmail.com

@@ -1,0 +1,49 @@
+﻿<Window
+    x:Class="StartDock.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:fa="http://schemas.fontawesome.io/icons/"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    AllowsTransparency="True"
+    Background="Transparent"
+    MouseDown="Border_MouseDown"
+    ResizeMode="NoResize"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <StackPanel x:Name="taskbar">
+        <Border
+            Width="50"
+            Height="50"
+            Background="White"
+            CornerRadius="10">
+            <Viewbox Margin="5">
+                <fa:FontAwesome FontSize="40" Icon="Windows">
+                    <fa:FontAwesome.Foreground>
+                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="1,1">
+                            <GradientStop Color="#FF338ACE" />
+                            <GradientStop Offset="1" Color="#FF2B5271" />
+                        </LinearGradientBrush>
+                    </fa:FontAwesome.Foreground>
+                </fa:FontAwesome>
+            </Viewbox>
+        </Border>
+
+        <Border
+            Width="80"
+            Height="80"
+            Background="White"
+            CornerRadius="10">
+            <Viewbox Margin="5">
+                <fa:FontAwesome FontSize="40" Icon="Windows">
+                    <fa:FontAwesome.Foreground>
+                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="1,1">
+                            <GradientStop Color="#FF338ACE" />
+                            <GradientStop Offset="1" Color="#FF2B5271" />
+                        </LinearGradientBrush>
+                    </fa:FontAwesome.Foreground>
+                </fa:FontAwesome>
+            </Viewbox>
+        </Border>
+    </StackPanel>
+</Window>
